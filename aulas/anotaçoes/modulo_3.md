@@ -134,6 +134,8 @@ _(O `<span>` pode ser estilizado com CSS, por exemplo, mudando a cor para amarel
 
 > ⚠️ O `#` é essencial.
 
+- **<a href="mailto:email">**: Maneira como se deve referenciar um e-mail por meio ta tag <a>. 
+
 ---
 
 # Aula 08
@@ -151,3 +153,8 @@ _(O `<span>` pode ser estilizado com CSS, por exemplo, mudando a cor para amarel
 - **`<figure>`**:
   - Cria um leve espaçamento
   - Permite usar **`<figcaption>`** para legenda da imagem
+- **Ctrl + ;**:
+- Cria o comentário automaticamente em HTML. -**svg**:
+- Imagens no formato de vetores, logo, podem ser esticadas ou reduzidas que não perderão a qualidade.
+
+
