@@ -1,0 +1,57 @@
+h1,
+h2,
+h3,
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-size: 64px;
+  line-height: 0.7;
+}
+
+h2 {
+  font-size: 32px;
+  line-height: 0.65;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 0.65;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+a {
+  font-style: italic;
+  text-decoration: dotted;
+  text-decoration-line: underline;
+  text-decoration-color: green;
+  color: blueviolet;
+  font-weight: 700;
+}
+
+.realce {
+  font-style: italic;
+  font-weight: bold;
+  color: #ff5781;
+}
+
+.caixa-alta {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-style: italic;
+  color: orange;
+}
+
+.cores-rgb {
+  color: rgb(250, 150, 250);
+  font-weight: 700;
+} /* Red, Green, Blue e o usuário intensifica(máx 255) ou diminui(min 0) cada uma delas formando as demais cores */
+
+.cores-rgba {
+  color: rgba(126, 38, 148, 0.5);
+} /* Mesma coisa do RGB, porém o usuário pode definir a opacidade da cor (0 transparente - 1 opaco) */

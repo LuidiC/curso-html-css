@@ -44,6 +44,7 @@
 ## 🧱 Estrutura Básica do HTML
 
 - É importante manter **todo o conteúdo dentro da tag `<html></html>`**, usando **indentação (TAB)** correta para seguir boas práticas.
+- Nome do arquivo padrão é "index.html"
 
 - **`<head>`**: Contém as configurações do documento HTML.
   - Ex: título da página, linguagem, estilos, metadados etc.
@@ -134,7 +135,7 @@ _(O `<span>` pode ser estilizado com CSS, por exemplo, mudando a cor para amarel
 
 > ⚠️ O `#` é essencial.
 
-- **<a href="mailto:email">**: Maneira como se deve referenciar um e-mail por meio ta tag <a>. 
+- **<a href="mailto:email">**: Maneira como se deve referenciar um e-mail por meio ta tag <a>.
 
 ---
 
@@ -156,5 +157,3 @@ _(O `<span>` pode ser estilizado com CSS, por exemplo, mudando a cor para amarel
 - **Ctrl + ;**:
 - Cria o comentário automaticamente em HTML. -**svg**:
 - Imagens no formato de vetores, logo, podem ser esticadas ou reduzidas que não perderão a qualidade.
-
-
