@@ -1,0 +1,58 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+a {
+  font-family: "Montserrat", sans-serif;
+  color: #404040;
+}
+
+/* Cabeçalho */
+.lista-cabecalho a {
+  color: #112e61;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* Seção Hero */
+h1 {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.hero-paragrafo {
+  font-size: 19px;
+}
+
+.hero-botao {
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+/* Seção Conteúdos Gratuitos */
+.gratuito-h2 {
+  font-size: 35px;
+  font-weight: 400;
+}
+
+h2.gratuito-h2 span {
+  color: #7a40be;
+  font-weight: 600;
+}
+
+.gratuito-h3 {
+  font-size: 23px;
+  font-weight: 700;
+}
+
+.gratuito-item-lista {
+  font-size: 19px;
+  text-decoration: none;
+}
