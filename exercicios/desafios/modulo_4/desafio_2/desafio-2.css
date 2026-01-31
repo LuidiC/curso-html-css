@@ -1,3 +1,4 @@
+/* Global */
 h1,
 h2,
 h3,
@@ -11,6 +12,30 @@ a {
   color: #404040;
 }
 
+h1 {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 35px;
+  font-weight: 400;
+}
+
+p {
+  font-size: 16px;
+}
+
+strong {
+  font-weight: 600;
+}
+
+.botao {
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
 /* Cabeçalho */
 .lista-cabecalho a {
   color: #112e61;
@@ -21,26 +46,12 @@ a {
 }
 
 /* Seção Hero */
-h1 {
-  font-size: 35px;
-  font-weight: 600;
-}
 
 .hero-paragrafo {
   font-size: 19px;
 }
 
-.hero-botao {
-  font-size: 24px;
-  font-weight: 700;
-  text-decoration: none;
-}
-
 /* Seção Conteúdos Gratuitos */
-.gratuito-h2 {
-  font-size: 35px;
-  font-weight: 400;
-}
 
 h2.gratuito-h2 span {
   color: #7a40be;
@@ -63,6 +74,30 @@ h2.gratuito-h2 span {
   font-weight: 400;
 }
 
-#h2-diferenciais span {
+.p-diferenciais {
+  font-size: 19px;
+}
+
+.h3-diferenciais {
+  font-size: 24px;
+  color: #005ebb;
   font-weight: 600;
 }
+
+.h3-diferenciais-empresas {
+  font-size: 35px;
+  font-weight: 400;
+}
+
+.h3-diferenciais-empresas a {
+  color: #005ebb;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+/* Seção O que falam */
+.oquefalam-h2 span {
+  font-weight: 600;
+}
+
+/* Seção Blog da Hashtag */
