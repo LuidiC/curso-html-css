@@ -36,6 +36,10 @@ strong {
   text-decoration: none;
 }
 
+.realce-semibold {
+  font-weight: 600;
+}
+
 /* Cabeçalho */
 .lista-cabecalho a {
   color: #112e61;
@@ -95,9 +99,58 @@ h2.gratuito-h2 span {
   font-weight: 700;
 }
 
-/* Seção O que falam */
-.oquefalam-h2 span {
+/* Seção Blog da Hashtag */
+.blog-postadoem {
+  font-size: 15px;
+}
+
+.blog-postadoem a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #f7a70c;
+}
+
+.a-blog-titulo {
+  font-size: 24px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.blo-descricao-post {
+  font-size: 17px;
+}
+
+/* Seção Como ajudar */
+.comoajudar-lista .comoajudar-paragrafo {
+  font-size: 19px;
+}
+
+.comoajudar-paragrafo a,
+.comoajudar-lista a {
+  color: #008ff7;
   font-weight: 600;
 }
 
-/* Seção Blog da Hashtag */
+.comoajudar-paragrafo b {
+  font-weight: 600;
+}
+
+/* Seção Rodapé */
+.rodape-titulo {
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.rodape-subtitulo {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.rodape-subtitulo2 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.rodape-link {
+  color: #1a77a4;
+}
