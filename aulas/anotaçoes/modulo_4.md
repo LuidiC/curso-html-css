@@ -4,7 +4,7 @@
 
 - _Cascading Style Sheets_
 - _Cascading_ pois vários arquivos de estilização podem estar ativos no mesmo documento ao mesmo tempo.
-- _Style Sheet_: é o nome dado ao arquivo de estilização que contém os _seletores_(formas de identificar um elemento em uma página, em quem irei realizar a formatação) e as _regras de estilização_(o que irei fazer exatamente na formatação).
+- _Style Sheet_: é o nome dado ao arquivo de estilização que contém os _seletores_(formas de identificar um elemento em uma página, em quem irei realizar a formatação) e as _regras de estilização_(aquilo que irei fazer exatamente na formatação).
 
 ## Informações do CSS
 
