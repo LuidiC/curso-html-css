@@ -50,7 +50,7 @@ Como exemplo temos:
 
 - **`<section>`**: Utilizado no main quando não consegue se enquadrar no `<aside>` ou `<article>` porém ainda sim você quer dividir em uma seção.
 
-- **`<div>`**: Tag utilizada para separar alguns elementos da página em blocos, porém sem uma semântica ou algo específico. (possível usar uma `<div>` dentro da outra)
+- **`<div>`**: Tag utilizada para separar alguns elementos da página em blocos, porém sem uma semântica ou algo específico. (possível usar uma `<div>` dentro da outra). Quando coloco 2 <divs> seguidas uma da outra os elemetos de cada uma ficarão agrudos abaixo da outra.
 
 - **`<footer>`**: Utilizado para representar o rodapé.
 
@@ -60,4 +60,22 @@ Como exemplo temos:
 
 Todos os elementos de um formulário precisam estar dentro da tag `<form action="">` (action: para onde as infromações irão parar, URL por exemplo). Existem diversas maneiras de personalização quando estamos falando de formulário, por isso é sempre importante checar a documentação e utilizar aqui que for melhor.
 
-- **`<input>`**: Utilizado para o usuário escrever, inputar algo. (não precisa estar dentro da tag `<input>` para funcionar)
+- **`<input>`**: Utilizado para o usuário escrever, inputar algo, existem vários tipos de input, importante olhar na documentação. (não precisa estar dentro da tag `<input>` para funcionar)
+  Ex: <input id="nome" name="nome" type="text" />
+  O formulário salavrá a informação como nome.
+  Obs: De acordo com o "name" que escolhemos para o nosso input, ele puxa infomações de outros formulários que já preenchemos naquele navegador com inputs que possuiam o mesmo "name". (sempre coloque em inglês)
+  Ex 2: <input id="nome" name="nome" type="text" placeholder="Seu nome"/>  
+  "placeholder": escrita que aparece no input antes do usuário digitar algo.
+  - **`<pattern>`**: é um atributo que só pode ser utilizado dentro de um input, utilizado para fazer validações no input de acordo com a regra daquele determinado campo.
+
+- **`<label>`**: Tag utilizada como uma legenda ou rótulo para um elemento de formulário, como um <input> ou <textarea>. Ela serve para identificar visualmente o que o usuário deve inserir em cada campo.
+  Acessibilidade: Permite que leitores de tela identifiquem corretamente qual texto descreve qual campo de entrada para usuários com deficiência visual.
+
+- **`<button>`**: Tag que cria um botão, possui 3 types:
+  . type="button": Ele não faz nada sozinho — só executa algo se você mandar, normalmente com JavaScript.
+
+. type="submit": É o tipo padrão do <button> quando ele está dentro de um <form>.
+Quer enviar os dados do formulário.
+Quer disparar a ação definida no action do <form>.
+
+. type="reset": Ele limpa todos os campos do formulário, voltando para os valores iniciais.
