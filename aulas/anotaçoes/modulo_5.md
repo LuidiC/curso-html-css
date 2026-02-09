@@ -54,7 +54,7 @@ Como exemplo temos:
 
 - **`<footer>`**: Utilizado para representar o rodapé.
 
-# Aula 05
+# Aula 05 e 06
 
 # Formulário
 
@@ -66,7 +66,9 @@ Todos os elementos de um formulário precisam estar dentro da tag `<form action=
   Obs: De acordo com o "name" que escolhemos para o nosso input, ele puxa infomações de outros formulários que já preenchemos naquele navegador com inputs que possuiam o mesmo "name". (sempre coloque em inglês)
   Ex 2: <input id="nome" name="nome" type="text" placeholder="Seu nome"/>  
   "placeholder": escrita que aparece no input antes do usuário digitar algo.
-  - **`<pattern>`**: é um atributo que só pode ser utilizado dentro de um input, utilizado para fazer validações no input de acordo com a regra daquele determinado campo.
+  - **`pattern`**: É um atributo que só pode ser utilizado dentro de um input, utilizado para fazer validações no input de acordo com a regra daquele determinado campo. (Dica: Olhar no regex101.com)
+  - **`required`**: Atributo que faz com que seja necessário algo no input para ser enviado.
+  - **`title`**: Atributo que será responsável por mostrar o que está escrito na caixa de erro ao enviar um input errado.
 
 - **`<label>`**: Tag utilizada como uma legenda ou rótulo para um elemento de formulário, como um <input> ou <textarea>. Ela serve para identificar visualmente o que o usuário deve inserir em cada campo.
   Acessibilidade: Permite que leitores de tela identifiquem corretamente qual texto descreve qual campo de entrada para usuários com deficiência visual.
@@ -79,3 +81,26 @@ Quer enviar os dados do formulário.
 Quer disparar a ação definida no action do <form>.
 
 . type="reset": Ele limpa todos os campos do formulário, voltando para os valores iniciais.
+
+# Aula 07
+
+# Tabela
+
+- **`<table>`**: Cria uma tabela ao inserir seus elementos.
+- **`<caption>`**: Cria legenda da tabela, não é obrigatório.
+
+- **`<tr><td></td></td>`**: Colocar cabeçalho na tabela. (head)
+
+- **`<tr><td></td></td>`**: Colocar algum elemento na tabela. (body)
+  Exs: <tr>
+  <td>Informação 1</td>
+  </tr>
+  <tr>
+  <td>Informação 2</td> 
+  -Duas linhas diferentes
+
+  <tr>
+  <td>Informação 1</td>
+  <td>Informação 2</td>
+  </tr> 
+  -Mesa linha, porém 2 colunas diferentes.
