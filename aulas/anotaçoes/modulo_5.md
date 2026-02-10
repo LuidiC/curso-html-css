@@ -82,7 +82,7 @@ Quer disparar a ação definida no action do <form>.
 
 . type="reset": Ele limpa todos os campos do formulário, voltando para os valores iniciais.
 
-# Aula 07
+# Aula 07 e 08
 
 # Tabela
 
@@ -104,3 +104,11 @@ Quer disparar a ação definida no action do <form>.
   <td>Informação 2</td>
   </tr> 
   -Mesa linha, porém 2 colunas diferentes.
+  - **`<colgroup></colgroup>`**: Deixa em negrito todos os <th>, permite uma personalização específica de cada coluna com o **`<col>`**. (cada <col> se refere a uma coluna)
+  <col span="número_colnas" class="" ou style=regra...>: Para quantas colunas específicas eu quero que aquela determinada regra se replique.
+
+  # Aula 09
+
+  # iFrames
+
+  Embedar: Quando pegamos algo feito em outra página e trazemos para a nossa página, geralmente feito por meio do iFrame.
