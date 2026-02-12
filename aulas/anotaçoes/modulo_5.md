@@ -22,9 +22,7 @@
   Ex: <pre><code> function() {
   console.log("Olá, mundo!")
   } </code></pre>
-
-- **`<var>`**: Tag usada para mostrar algo como uma variável.
-
+  Cascading Style Sheets
 - **`<kbd>`**: Tag para retratar teclas do teclado.
   Ex: <kbd>CTRL + K</kbd>
   - **`<time datetime="">`**: Tag para especificar ao navegador que é uma data.
@@ -112,3 +110,38 @@ Quer disparar a ação definida no action do <form>.
   # iFrames
 
   Embedar: Quando pegamos algo feito em outra página e trazemos para a nossa página, geralmente feito por meio do iFrame.
+
+- **`<iframe src="" frameborder="0"></iframe>`**: Tag que cria um novo navegador dentro da sua própria página, um novo contexto de navegação dentro da página. Improta outra página para a sua.
+  Utilidades: Posso pegar um vídeo do YouTube e colocar dentro da minha página, o Google Maps e etc.
+
+# Aula 10
+
+# Dialog
+
+É a forma mais fácil de se fazer pop-ups nas páginas web.
+Obs: Quase sempre será necessário o JavaScript para utiizar essa tag.
+
+# Aula 11
+
+# Selectedcontent
+
+Até o momento do curso era limitado, portanto, exige muitas coisas para funcionar.
+Ex: Estrutura básica junto com algumas coisas do css para funcionar:
+
+<select id="plan">
+<button><selectedcontent></selectedcontent></button>
+
+                <option value="pro" selected>
+                  <span class="row"
+                    ><span class="badge b2">P</span><strong>Pro</strong
+                    ><span>• Projetos sérios</span></span
+                  >
+                </option>
+
+                <option value="enterprise">
+                  <span class="row"
+                    ><span class="badge b4">E</span><strong>Enterprise</strong
+                    ><span>• Escala máxima</span></span
+                  >
+                </option>
+                </select>
