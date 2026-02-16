@@ -126,7 +126,7 @@ Obs: Quase sempre será necessário o JavaScript para utiizar essa tag.
 # Selectedcontent
 
 Até o momento do curso era limitado, portanto, exige muitas coisas para funcionar.
-Ex: Estrutura básica junto com algumas coisas do css para funcionar:
+Ex: Estrutura básica junto com algumas coisas no css para funcionar:
 
 <select id="plan">
 <button><selectedcontent></selectedcontent></button>
