@@ -1,0 +1,25 @@
+p {
+  color: white;
+  font-size: 20px;
+}
+
+#p1 {
+  /* Todos os lados */
+  margin: 10px;
+  padding: 10px;
+  background-color: green;
+}
+
+#p2 {
+  /* Em cima e embaixo 10px, de um lado e do outro 25px*/
+  margin: 10px 25px;
+  padding: 10px 25px;
+  background-color: blue;
+}
+
+#p3 {
+  /* Cada lado separadamente. Em cima, Direita, Embaixo, Esquerda */
+  margin: 10px 20px 30px 40px;
+  padding: 10px 20px 30px 40px;
+  background-color: orange;
+}
