@@ -30,4 +30,4 @@ Caso sejam utilizados 2 seletores, os "pontos" de prioridade deles se somam e a 
 
 - **`<margin>`**: Modifica o tamanho do espaçamento interno.
   Segue a mesma lógica no "margin", porém agora para o espaçamento interno.
-  \*Observação: Poode ser usado op margin-top, margin-right e etc também para modificar especificamente apenas uma parte.
+  \*Observação: Poode ser usado op margin-top, margin-right... também para modificar especificamente apenas uma parte.
