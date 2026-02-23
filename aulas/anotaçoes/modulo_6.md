@@ -28,6 +28,23 @@ Caso sejam utilizados 2 seletores, os "pontos" de prioridade deles se somam e a 
   }
   \*Observação: Caso eu coloque somente um valor, ele valerá para todos os cantos e podemos colocar até 4 valores, cada um deles correspondendo a um canto da margem.
 
-- **`<margin>`**: Modifica o tamanho do espaçamento interno.
+- **`<padding>`**: Modifica o tamanho do espaçamento interno.
   Segue a mesma lógica no "margin", porém agora para o espaçamento interno.
   \*Observação: Poode ser usado op margin-top, margin-right... também para modificar especificamente apenas uma parte.
+
+# Aula 04
+
+# Dimensões e unidades no CSS
+
+- **`width`**: Modifica a largura (de uma div por exemplo).
+
+- **`height`**: Modifica a altura (de uma div por exemplo).
+
+- Medidas de _Unidades relativas_:
+  . vh: viewport height
+  . vw: viewport width
+  (viewport significa a altura/largura do navegador, sempre se coloca em porcentagem de ocupação da sua tela)
+  Ex: altera de acordo com o dispositivo e se está com tela cheia ou não, por exemplo.
+  . em:
+  . rem:
+  Observação: px (pixel) é uma unidade _absoluta_, ou seja, imutável.
