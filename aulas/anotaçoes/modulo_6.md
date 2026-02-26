@@ -41,10 +41,14 @@ Caso sejam utilizados 2 seletores, os "pontos" de prioridade deles se somam e a 
 - **`height`**: Modifica a altura (de uma div por exemplo).
 
 - Medidas de _Unidades relativas_:
-  . vh: viewport height
-  . vw: viewport width
+  _. vh:_ viewport height
+  _. vw:_ viewport width
   (viewport significa a altura/largura do navegador, sempre se coloca em porcentagem de ocupação da sua tela)
   Ex: altera de acordo com o dispositivo e se está com tela cheia ou não, por exemplo.
-  . em:
-  . rem:
-  Observação: px (pixel) é uma unidade _absoluta_, ou seja, imutável.
+  _. em:_ propriedade que faz com que o elemento filho herde o tamanho da regra presente no elemento pai, caso eu queria o dobro do elemento pai por exemplo é só `font-size: 2em;`
+  _. rem:_ propriedade igual ao em porém sempre leva em consideração o "pai de todos", ou seja, o <html>.
+  Observações:
+  1. px (pixel) é uma unidade _absoluta_, ou seja, imutável.
+  2. em e rem são válidos somente para elementos, não são para classes, ip e etc.
+
+**Boa prática**: Sempre definir o html, como font-size em 62.5% e utilizar o resto do site como `rem`, isso tornará o layount responsivo pois em cada dispositivo o html pode ter um font-size padrão.
