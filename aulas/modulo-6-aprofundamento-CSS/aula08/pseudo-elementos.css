@@ -1,0 +1,18 @@
+p::first-letter {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+p::first-line {
+  color: red;
+}
+
+p::after {
+  content: " - Fim do parágrafo";
+  font-weight: 700;
+}
+
+p::before {
+  content: "Texto que entrará no início -  ";
+  font-weight: 700;
+}

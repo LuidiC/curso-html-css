@@ -1,0 +1,22 @@
+p:hover {
+  color: greenyellow;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+a:link {
+  color: orange;
+}
+
+a:visited {
+  color: seagreen;
+}
+
+a:hover {
+  font-weight: 700;
+}
+
+a:active {
+  color: red;
+  font-size: 35px;
+}

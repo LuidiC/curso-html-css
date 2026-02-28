@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+div {
+  margin: 5rem;
+  width: 20rem;
+  height: 20rem;
+  background-color: green;
+  border-radius: 10rem;
+}
+
+img {
+  margin: 20rem;
+  border-radius: 100rem;
+}

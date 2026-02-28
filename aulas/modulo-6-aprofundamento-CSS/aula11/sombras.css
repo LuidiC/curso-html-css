@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+div {
+  margin: 10rem;
+  width: 20rem;
+  height: 20rem;
+  background-color: green;
+
+  /* Mais de uma sombra, dentro/fora, deslocamento horizontal, deslocamento vertical, raio de desfoque, raio de propagação, cor */
+
+  box-shadow:
+    -5rem -5rem 1rem -2rem rgb(0, 0, 0, 0.2),
+    5rem 5rem 1rem 2rem rgba(108, 8, 8, 0.2),
+    5rem -5rem 1rem 2rem rgba(6, 85, 137, 0.2);
+}

@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+boddy {
+  font-family: "Monserrat", sans-serif;
+  color: rgb(24, 22, 22);
+}
+
+h1 {
+  margin-bottom: 10px;
+  margin-left: 10px;
+  font-size: 5rem;
+}
+
+h2 {
+  margin-bottom: 15px;
+  font-size: 3.5rem;
+}
+
+p {
+  margin-bottom: 5px;
+  font-size: 2rem;
+}
