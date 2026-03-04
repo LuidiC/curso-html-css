@@ -125,3 +125,35 @@ Temos também o svw, dvw e lvw (mesma lógica).
 
 Temos a propriedade `border-radius`, que é responsável por arredondar o elemento ao qual você está aplicando a propriedade.
 Ex: Caso um elemento seja um quadrado, podemos utlizar o `border-radius = 50%`, isso deixará o elemento totalmente quadrado.
+
+# Aula 14
+
+# Tipos de visualização
+
+Elementos diferentes ocupam espaços diferentes:
+
+- h1, h2, h3 e p: Ocupa o espaço inteiro da linha.
+- a, span,b: Ocupa somente o espaço desiguinado a informação.
+  . A propriedade `display: block` faz com que o elemento que não ocupe uma linha inteira passe a ocupar.  
+  . A propriedade `display: inline` faz com que o elemento ocupe apenas o espaço designado a ele, hight e width não se aplicam a elementos inline (também faz com que elementos fiquem um ao lado do outro).
+  . A propriedade `display: inline-block` ocupa somente o espaço do conteúdo, não quebra as linhas (mesma linha), margin se aplica para todas as margens (não só esquerda e direira)  
+  . A propriedade `display: none` oculta o elemento.
+
+# Aula 15
+
+# Tipos de posicionamento
+
+Quando quero que por exemplo um elemento que tem um atributo padrão herde uma cor por exemplo de uma <div>, basta eu colocar no elemento o atributo `color: inherit`.
+
+Com relação a posicionamento, temos 3 tipos:
+
+- static: É o que vem por padrão (alterado com inline ou block)
+
+- relative: É igual ao static porém conseguimos alterá-lo de acordo com seu próprio eixo. (um pouco pro lado, pra baixo...)
+  Ex: `position: relative; top: 20rem;`
+  Tudo que eu colocar ele se deslocará no sentido contrário, exemplo top:20rem, vai 20rem pra baixo. left:20rem, vai 20rem pra direita.
+
+- absolute: O elemento fica em uma posição absoluta em relação a outro elemento.
+  Ex: colo um p dentro de uma div e sempre no canto direito, se eu mover a div de lugar o p mudará também, ficando proporcional ao começo na mesma posição.
+
+- fixed:

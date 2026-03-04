@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+h1 {
+  font-size: 3.2rem;
+}
+
+h2 {
+  font-size: 2.4rem;
+  background-color: blueviolet;
+}
+
+p,
+a {
+  font-size: 1.6rem;
+  display: block;
+  background-color: greenyellow;
+}
+
+.a3 {
+  display: none;
+}
+
+b {
+  display: inline-block;
+  font-size: 1.8rem;
+  margin: 3rem;
+}
+
+span {
+  background-color: aqua;
+  margin: 5rem;
+}
+
+h3 {
+  display: inline;
+  font-size: 2rem;
+}
